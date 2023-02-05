@@ -1,0 +1,21 @@
+#sideBar {
+    background-color: black;
+    position: static;
+    width: 100%;
+    margin-right: 2%;
+    padding: 1%;
+}
+#sideBar ul li {
+    list-style-type: none;
+    display: inline;
+    color: pink;
+    padding: 10px;
+    position: relative;
+}
+#container {
+    background-image: url(../../../../photos/wallpaper.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
+    visibility: visible;
+}

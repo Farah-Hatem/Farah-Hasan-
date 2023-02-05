@@ -1,0 +1,195 @@
+/* Start main rules */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Righteous', cursive;
+    height: 100%;
+}
+h2 {
+    text-align: center;
+    color: pink;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+/* End main rules */
+
+/* start header*/
+
+/* End header*/
+
+/* Start navbar */
+.nav {
+    background-color: black;
+}
+.nav h1 {
+    color: rgba(255, 255, 255, 0.500);
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.nav h1:hover {
+    color: white;
+}
+.nav span {
+    color: pink;
+}
+.nav ul li {
+    display: inline;
+    color: pink;
+    padding: 20px;
+    position: center;
+    float: right;
+    transition: 0.5s;
+}
+.nav ul li:hover {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+@media (max-width: 575.98px) { 
+    .nav ul li{
+        display: none;
+    }
+}
+/* End navbar */
+
+/*Start slider*/
+.slider {
+    background-image: url(../../photos/wallpaper.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.slider .overlay {
+    background-color: rgba(0, 0, 0, 0.600);
+    height: 100%;
+    width: 100%;
+}
+.slider .overlay .text1 {
+    text-align: center;
+    color: white;
+    padding-top: 25%;
+    font-size: 200%;
+}
+.slider .overlay .text1 strong {
+    color: pink;
+    font-size: 200%;
+}
+/*End slider*/
+
+/* Start brief */
+.brief {
+    background-color: white;
+}
+.brief .container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.brief .container p {
+    text-align: center;
+}
+/* End brief */
+
+/* Start experience */
+.experience {
+    background-color: black;
+}
+.experience .container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.experience .container h3 {
+    text-align: center;
+    color: white;
+}
+.experience .container p {
+    text-align: center;
+    color: white;
+}
+.experience .container .col #mostaql {
+    color: pink;
+}
+.experience .container hr {
+    color: white;
+}
+/* End experience */
+
+/* Start project */
+/* .proj .container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.proj .row {
+    margin: 0px;  
+}
+.proj .container .card {
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}  */
+/* End project */
+
+/* Start skills */
+.skills {
+    margin: 20px;
+    padding: 10px;
+}
+.skills .row {
+    background-color: gray;
+}
+/* .skills .container .col {
+    text-align: center;
+} */
+.skills .col {
+    background-color: gray;
+    text-align: center;
+}
+.skills .cross {
+    cursor: crosshair;
+}
+
+.skills button {
+    background-color: black;
+    width: min-content;
+}
+
+.ppt {
+    text-align: center;
+}
+/* End skills */
+
+/* Start contact */
+.contact .container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.contact .card {
+    width: fit-content;
+    margin: auto;
+    box-shadow: black;
+}
+.contact #facebook {
+    background-color:#3b5998 ;
+}
+.contact #linkedin {
+    background-color:  #0072b1;
+}
+.contact #insta {
+    background-image: url(../../photos/insta\(2\).png);
+    background-repeat:no-repeat ;
+}
+/* End contact */
+
+/*Start footer*/
+footer {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+/*End footer*/

@@ -1,0 +1,103 @@
+/* Start main rules */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Righteous', cursive;
+    height: 100%;
+}
+h2 {
+    text-align: center;
+    color: pink;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+/* End main rules */
+
+/* Start navbar */
+.nav {
+    background-color: black;
+}
+.nav h1 {
+    color: rgba(255, 255, 255, 0.500);
+    text-transform: capitalize;
+}
+.nav span {
+    color: pink;
+}
+.nav h1:hover {
+    color: white;
+}
+.nav ul li {
+    display: inline;
+    color: pink;
+    padding: 20px;
+    position: center;
+    float: right;
+}
+.nav ul li:hover {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+/* End navbar */
+
+/* Start about me*/
+.about {
+    padding-top: 10px;
+}
+.about .container .text {
+    margin: auto;
+    width: 50%;
+    border-color: pink;
+    border-width: 100px;
+    border: solid;
+    padding: 5px;
+    text-align: center;
+}
+/* End about me*/
+
+/* Start edu */
+.edu {
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.edu h3 {
+    text-align: center;
+    color: white;
+}
+.edu p {
+    text-align: center;
+    color: white;
+}
+/* End edu */
+
+/* Start lang*/
+.lang {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;}
+.lang h3 {
+    text-align: center;
+}
+.lang p {
+    text-align: center;
+}
+/* End lang */
+
+/*Start footer*/
+footer {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+/*End footer*/
+
+
